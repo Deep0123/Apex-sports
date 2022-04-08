@@ -16,11 +16,12 @@ body {
     url("images/1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 916px;
+  height: 150vh;
 }
 .navbar {
   /* background-color: #212c3f; */
   color: #fff;
+  overflow: hidden;
 }
 .navbar a {
   padding: 33px;
@@ -43,6 +44,7 @@ body {
 }
 nav {
   display: inline-block;
+  overflow: hidden;
 }
 a {
   text-decoration: none;
@@ -101,12 +103,13 @@ nav .fa {
     /* font-size: 14px; */
   }
   .nav-links {
-    position: absolute;
+    position: fixed;
     background: black;
     height: 100%;
     width: 200px;
     top: 0;
     right: -200px;
+    overflow: hidden;
     text-align: left;
     z-index: 2;
     transition: 1s;
@@ -132,7 +135,7 @@ nav .fa {
   grid-template-columns: repeat(2, 1fr);
   /* gap: 40px; */
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   height: 100%;
 }
 .showcase-text {
@@ -148,7 +151,7 @@ nav .fa {
 }
 .showcase-text h2 {
   color: #e7bf61;
-  font-size: 43px;
+  font-size: 37px;
   font-family: "PT Sans", sans-serif;
   font-weight: 300;
   padding-top: 10px;
@@ -195,6 +198,7 @@ nav .fa {
   color: #bcbcbc;
   font-weight: 100;
   font-size: 16px;
+  padding-top: 50px;
 }
 
 .showcase-text .about {
