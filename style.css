@@ -533,6 +533,7 @@ footer .grid6 {
   }
   .showcase-text h1 {
     font-size: 43px;
+    letter-spacing: 7px;
   }
   .showcase-text h2 {
     font-size: 23px;
@@ -593,6 +594,7 @@ footer .grid6 {
 @media (max-width: 480px) {
   .showcase-text h1 {
     font-size: 26px;
+    
   }
   .showcase-text h2 {
     font-size: 20px;
